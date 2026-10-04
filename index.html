@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ladies Landscaping | Whoville</title>
+  <meta name="description" content="Ladies Landscaping is a reliable, woman-owned local landscaping business serving Whoville. Free estimates and quality outdoor services.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <a href="#" class="brand">LADIES<span>LANDSCAPING</span></a>
+  <button class="menu" aria-label="Open navigation">☰</button>
+  <nav class="nav">
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#work">Our Work</a>
+    <a href="#contact" class="nav-button">Free Estimate</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-shade"></div>
+  <div class="hero-content">
+    <p class="kicker">WOMAN-OWNED • LOCAL • RELIABLE</p>
+    <h1>Your yard.<br><i>Our passion.</i></h1>
+    <p>Quality landscaping and outdoor services for homes and businesses throughout Whoville.</p>
+    <div class="buttons">
+      <a class="button primary" href="#contact">Get a Free Estimate</a>
+      <a class="button outline" href="#services">View Services</a>
+    </div>
+  </div>
+  <div class="hero-badge"><b>7</b><span>YEARS<br>OF SERVICE</span></div>
+</section>
+
+<section id="services" class="section">
+  <div class="heading">
+    <p class="kicker dark">WHAT WE DO</p>
+    <h2>Quality work that makes a difference.</h2>
+    <p>Whether you need routine lawn care or a full property cleanup, Ladies Landscaping is ready to help.</p>
+  </div>
+  <div class="service-grid">
+    <article class="service"><span class="number">01</span><h3>Lawn Mowing</h3><p>Keep your lawn neat, healthy, and looking its best with dependable mowing and trimming.</p></article>
+    <article class="service"><span class="number">02</span><h3>Landscaping</h3><p>Refresh your outdoor space with thoughtful landscaping and property improvements.</p></article>
+    <article class="service"><span class="number">03</span><h3>Yard Cleanup</h3><p>Leaves, branches, overgrowth, and seasonal messes—we'll help get your yard back in shape.</p></article>
+    <article class="service"><span class="number">04</span><h3>Junk Removal</h3><p>Clear unwanted outdoor clutter and reclaim space around your home or property.</p></article>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-image"><span>LOCAL • WOMAN-OWNED • PROUDLY SERVING WHOVILLE</span></div>
+  <div class="about-copy">
+    <p class="kicker dark">ABOUT LADIES LANDSCAPING</p>
+    <h2>Seven years of showing up and doing the job right.</h2>
+    <p>We're a local, woman-owned landscaping business built around reliability, quality service, and treating every property like it matters.</p>
+    <div class="stats"><div><b>7</b><span>Years in business</span></div><div><b>100%</b><span>Free estimates</span></div></div>
+    <a class="text-link" href="#contact">Let's talk about your yard →</a>
+  </div>
+</section>
+
+<section id="work" class="work section">
+  <div class="heading">
+    <p class="kicker dark">OUR WORK</p>
+    <h2>A cleaner yard starts here.</h2>
+    <p>These project panels are ready for real customer photos when you're building the finished site.</p>
+  </div>
+  <div class="gallery">
+    <div class="photo p1"><span>Landscaping</span></div>
+    <div class="photo p2"><span>Lawn Care</span></div>
+    <div class="photo p3"><span>Yard Cleanup</span></div>
+  </div>
+</section>
+
+<section class="quote">
+  <div>
+    <p class="kicker">WHY CHOOSE US</p>
+    <h2>Reliable service.<br>Quality results.</h2>
+  </div>
+  <div class="reasons">
+    <div><b>✓</b><span><strong>Woman-owned & local</strong><br>A business that cares about the community it serves.</span></div>
+    <div><b>✓</b><span><strong>Free estimates</strong><br>Know what your project looks like before you commit.</span></div>
+    <div><b>✓</b><span><strong>Seven years of experience</strong><br>Dependable outdoor service backed by experience.</span></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-copy">
+    <p class="kicker dark">GET STARTED</p>
+    <h2>Let's make your yard the best-looking one on the block.</h2>
+    <p>Tell us what you need. We'll get back to you about your free estimate.</p>
+    <div class="details">
+      <p>☎ <strong>(420) 690-69420</strong></p>
+      <p>✉ <strong>ladieslandscaping@fake.com</strong></p>
+      <p>⌖ <strong>Serving Whoville</strong></p>
+    </div>
+  </div>
+  <form id="quoteForm" class="form">
+    <label>Your name<input required name="name" placeholder="Jane Smith"></label>
+    <label>Phone or email<input required name="contact" placeholder="How should we reach you?"></label>
+    <label>What service do you need?<select name="service"><option>Lawn mowing</option><option>Landscaping</option><option>Yard cleanup</option><option>Junk removal</option></select></label>
+    <label>Tell us about the project<textarea required name="message" rows="4" placeholder="A few details about your yard or project..."></textarea></label>
+    <button class="button primary" type="submit">Request My Free Estimate</button>
+    <p id="formMessage" class="message"></p>
+  </form>
+</section>
+</main>
+
+<footer>
+  <a href="#" class="brand">LADIES<span>LANDSCAPING</span></a>
+  <p>© <span id="year"></span> Ladies Landscaping • Whoville</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
